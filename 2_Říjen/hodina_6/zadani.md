@@ -51,7 +51,7 @@
 - Uživateli prodáváte gin.
 - Uživatel zadá počet lahví, cena 1 ginu je 540,-
 - Pokud je množství lahví do pěti, uživatel platí plnou sazbu.
-- Pokud objednává do deseti lahví, má množstevní cenu 10 %.
+- Pokud objednává do deseti lahví, má množstevní slevu 10 %.
 - Pokud objednává do 50 lahví, má množstevní slevu 20 %.
 - Pokud si objedná více, tak mu objednávku bude zamítnuta, protože se pravděpodobně jedná o překupnictví, to je trestné.
 - Vypište, jakou celkovou cenu zaplatí, pokud bude objednávka zamítnuta, vypište tuto informaci do konzole a celková
