@@ -16,7 +16,7 @@
 #### Příklad intuice:
 
 - Máte seznam lidí, kteří se účastní závodu.
-- Chcete vypsat každého člověka v tom seznamu.
+- Chcete vypsat každého člověka ze seznamu.
 - Namísto toho, abyste to dělali ručně pro každý jednotlivý prvek (a ani nemusíte vědet, kolik lidí v seznamu je),
   použijete cyklus.
 - Cyklus automaticky projde všechny lidi v seznamu a vytiskne jejich jména.
@@ -59,7 +59,7 @@ public class Main {
 ```java
 while(podmínka){
         // kód, který se má opakovat
-        }
+}
 ```
 
 #### Příklad:
