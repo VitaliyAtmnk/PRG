@@ -5,6 +5,16 @@
 - A1 píše 16.12
 - Test bude složen z 10 typových úkolů
 
+## Hodnocení
+
+| Body      | Známka |
+|-----------|--------|
+| 10 - 9    | 1      |
+| 8.5 - 7.5 | 2      |
+| 7 - 6     | 3      |
+| 5 - 4     | 4      |
+| 4 a méně  | 5      |
+
 ### Úkol 1
 
 - Načtěte od uživatele celé/reálné číslo, nebo řetězec:
