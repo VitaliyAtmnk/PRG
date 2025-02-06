@@ -10,7 +10,7 @@ Například;
 - Pole vypište zepředu i pozpátku
 
 ### Úkol 2
-- nečtěte od uživatele celé kladné číslo (například 5.)
+- načtěte od uživatele celé kladné číslo (například 5.)
 - poté od uživatele načtěte dalších `n` čísel (n je předchozí vstup od uživatele (třeba 5))
 
 ### Úkol 3
