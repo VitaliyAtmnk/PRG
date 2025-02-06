@@ -11,7 +11,7 @@ Například;
 
 ### Úkol 2
 - načtěte od uživatele celé kladné číslo (například 5.)
-- poté od uživatele načtěte dalších `n` čísel (n je předchozí vstup od uživatele (třeba 5))
+- poté od uživatele načtěte dalších `n` čísel (n je předchozí vstup od uživatele (třeba 5)) a uložíte ho do pole, se kterým pak budete pracovat v dalších úlohach
 
 ### Úkol 3
 - napište metodu `static int findMin(int[] arr){}` která vrátí nejmenší číslo v poli
