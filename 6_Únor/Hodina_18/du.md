@@ -1,3 +1,9 @@
+### Úkoly:
+- Přidejte 4 nové položky do inventáře
+- Přidejte raritu k novým položkám (A-E, A - nejlepší, E nejhorší)
+- Seřaďte inventář dle abecedy a vypište
+- Seřaďte inventář dle rarity a vypište, pokud mají dvě položky stejnou raritu, budou seřazeny abecedně
+- Poznámka: úkoly řešte pomocí metod (1 úkol == 1 metoda (alespoň)) 
 ```java
 String[] inventory = {
 "Spitzhacke",
