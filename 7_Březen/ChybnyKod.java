@@ -1,3 +1,4 @@
+/*
 public class ChybnyKod {
 
     public static void pozdrav() {
@@ -65,3 +66,4 @@ public class ChybnyKod {
         soucetCisel(arr); // -15
     }
 }
+*/
