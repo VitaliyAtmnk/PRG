@@ -18,6 +18,17 @@ nebo jejich čísla) a průběžně je zpracovávat.
 
 5. Na konci znovu vypište upravený seznam objednávek.
 
+`Svíčková na smetaně – Restaurace U Koláře`
+`Guláš s knedlíkem – Hospoda Na Růžku`
+`Pečená kachna se zelím – Hostinec U Vopičky`
+`Grilovaný hermelín s brusinkami – Bistro Na Křižovatce`
+`Koprová omáčka s hovězím – Jídelna U Tří lvů`
+`Špagety Carbonara – Pizzerie Bella Italia`
+`Kuřecí řízek s bramborovým salátem – Restaurace Na Zahrádce`
+`Vepřo knedlo zelo – Hospůdka U Dvou koček`
+`Kuřecí Kung Pao s rýží – Asijská restaurace So Long`
+`Smažený sýr s hranolkami – Bistro Na rohu`
+
 ---
 
 ### 2) Správa kontaktů v (jednoduchém) telefonním seznamu
