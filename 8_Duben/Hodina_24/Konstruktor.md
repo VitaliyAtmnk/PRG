@@ -81,13 +81,11 @@ public class Osoba {
     private int vek;
 
     // Bezparametrický konstruktor
-    public Osoba() {
-        this("Neznámé jméno", 0); // Volání konstruktoru s parametry pomocí 'this'
-    }
+    public Osoba() {}
 
     // Konstruktor s jedním parametrem
     public Osoba(String jmeno) {
-        this(jmeno, 0);
+        this.jmeno = jmeno;
     }
 
     // Konstruktor s dvěma parametry
