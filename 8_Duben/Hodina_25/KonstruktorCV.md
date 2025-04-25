@@ -13,7 +13,7 @@
 ### Postup
 
 - Základní verze programu načte jen 3 filmy
-- načtěte od uživatele `jméno`, `délku v minutách`, `hodnocení` (int 1 až 5) a rok vydání
+- načtěte od uživatele `jméno`, `délku v minutách`, `hodnocení` (int 1 až 5) a `rok vydání`
 - Film bude reprezentován třídou.
 
 ```
@@ -21,6 +21,37 @@ Vstup:
 Minecraft_Film 101 3 2025
 Interstellar 169 5 2014
 Pulp_Fiction 149 5 1994
+```
+
+```java
+import java.util.Scanner;
+
+/**
+ * Třída slouží k načtení dat z konzole od uživatele
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        SeznamFilmu seznamFilmu = new SeznamFilmu("Muj seznam");
+        final int POCET_FILMU = 3;
+        
+        for (int i = 0; i < POCET_FILMU; i++) {
+
+            String name = sc.next();
+            double len = sc.nextDouble();
+            int rating = sc.nextInt();
+            int year = sc.nextInt();
+
+            Film inputFilm = new Film(name, len, rating, year);
+
+            seznamFilmu.addFilm(inputFilm);
+        }
+        seznamFilmu.printInfo();
+    }
+}
+
 ```
 
 ---
