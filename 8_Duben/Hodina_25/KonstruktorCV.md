@@ -23,6 +23,35 @@ Interstellar 169 5 2014
 Pulp_Fiction 149 5 1994
 ```
 
+```java
+
+/**
+ * Třída slouží k načtení dat z konzole od uživatele
+ */
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        SeznamFilmu seznamFilmu = new SeznamFilmu("Muj seznam");
+        final int POCET_FILMU = 3;
+        
+        for (int i = 0; i < POCET_FILMU; i++) {
+
+            String name = sc.next();
+            double len = sc.nextDouble();
+            int rating = sc.nextInt();
+            int year = sc.nextInt();
+
+            Film inputFilm = new Film(name, len, rating, year);
+
+            seznamFilmu.addFilm(inputFilm);
+        }
+        seznamFilmu.printInfo();
+    }
+}
+```
+
 ---
 
 ### Třída Film
