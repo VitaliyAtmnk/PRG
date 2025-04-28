@@ -18,7 +18,9 @@ tah nebo nepřekročí součet 21 bodů (tj. prohra).
     - `int value` – herní hodnota karty (číselné karty mají svou hodnotu, J, Q, K počítáme jako 10; eso lze pro
       zjednodušení počítat jako 11).
 
-- **Konstruktor:**  Inicializace atributů.
+- **Konstruktor:**
+    - public Card(String rank, String suit)
+    - nastaví atributy třídy podle argumentů konstruktoru + nastaví hodnotu karty podle argumentu `rank`
 
 - **Metoda:**
 
@@ -29,7 +31,7 @@ tah nebo nepřekročí součet 21 bodů (tj. prohra).
 
 - **Atribut:**
 
-    - Pole obsahující 52 karet. (`ArrayList\<Card>`)
+    - Pole obsahující 52 karet. (`ArrayList<Card>`)
 
 - **Konstruktor:**  Vytvoří plný balíček karet s příslušnými hodnotami.
 
