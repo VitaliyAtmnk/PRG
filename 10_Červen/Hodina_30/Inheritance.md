@@ -263,7 +263,7 @@ class Cat extends Animal {
 
 7. **Jaká třída je implicitním (skrytým) rodičem všech tříd v Javě? Jaké metody dědíme automaticky?**
 
-8. **Jak můžeš pomocí metody `toString()` upravit výpis objektu, aby dával smysl?
+8. **Jak můžeš pomocí metody `toString()` upravit výpis objektu, aby dával smysl?**
 
 9. **Může jedna třída v Javě dědit od více tříd? Vysvětli proč.**
 
