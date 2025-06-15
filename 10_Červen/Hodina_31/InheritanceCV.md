@@ -42,6 +42,7 @@ Vytvoř třídu `Car`, která dědí z `Vehicle`, a vyzkoušej volání metody `
 Potom vytvoř třídu `Student`, která dědí z `Person` a přidá atribut `school`. Přepiš metodu `introduce()` tak, aby volala `introduce()` 
 rodiče pomocí `super.introduce()` a následně vypsala název školy, na kterou chodí. Použij `@Override`.**
 Vytvoři následně třídu `Teacher`, která dědí od Person a má atribut `String class`, reprezentující třídu, ve které učí.
+
 ---
 
 #### 3. Grafika:
